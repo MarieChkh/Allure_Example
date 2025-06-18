@@ -6,12 +6,12 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 @Layer("rest")
-@Owner("mariechkh")
+@Owner("MarieChkh")
 @Feature("Issues")
 public class IssuesRestTest {
 
-    private static final String OWNER = "mariechkh";
-    private static final String REPO = "AllureExample";
+    private static final String OWNER = "MarieChkh";
+    private static final String REPO = "Allure_Example";
 
     private final RestSteps steps = new RestSteps();
 

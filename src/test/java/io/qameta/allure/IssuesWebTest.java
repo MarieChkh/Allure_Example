@@ -11,12 +11,12 @@ import org.junit.jupiter.api.Test;
  * @author eroshenkoam (Artem Eroshenko).
  */
 @Layer("web")
-@Owner("mariechkh")
+@Owner("MarieChkh")
 @Feature("Issues")
 public class IssuesWebTest {
 
-    private static final String OWNER = "mariechkh";
-    private static final String REPO = "AllureExample";
+    private static final String OWNER = "MarieChkh";
+    private static final String REPO = "Allure_Example";
 
     private static final String ISSUE_TITLE = "Some issue title here";
 
