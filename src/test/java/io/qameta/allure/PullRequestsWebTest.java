@@ -15,8 +15,8 @@ import org.junit.jupiter.api.Test;
 @Feature("Pull Requests")
 public class PullRequestsWebTest {
 
-    private static final String OWNER = "MarieChkh";
-    private static final String REPO = "Allure_Example";
+    private static final String OWNER = "allure-framework";
+    private static final String REPO = "allure2";
 
     private static final String BRANCH = "new-feature";
 

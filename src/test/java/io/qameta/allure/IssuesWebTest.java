@@ -15,8 +15,8 @@ import org.junit.jupiter.api.Test;
 @Feature("Issues")
 public class IssuesWebTest {
 
-    private static final String OWNER = "MarieChkh";
-    private static final String REPO = "Allure_Example";
+    private static final String OWNER = "allure-framework";
+    private static final String REPO = "allure2";
 
     private static final String ISSUE_TITLE = "Some issue title here";
 
