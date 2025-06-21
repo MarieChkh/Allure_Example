@@ -8,14 +8,14 @@ version = version
 
 allure {
     report {
-        version.set("2.24.0")
+        version.set("2.29.1")
     }
     adapter {
         autoconfigure.set(true)
         aspectjWeaver.set(true)
         frameworks {
             junit5 {
-                adapterVersion.set("2.24.0")
+                adapterVersion.set("2.29.1")
             }
         }
     }
@@ -34,6 +34,7 @@ tasks.withType(Test::class) {
     }
     systemProperty("junit.jupiter.execution.parallel.enabled", "true")
     systemProperty("junit.jupiter.execution.parallel.config.strategy", "dynamic")
+
     systemProperty("junit.jupiter.extensions.autodetection.enabled", "true")
 }
 
